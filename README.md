@@ -193,3 +193,22 @@ Webpack es un paquete de módulos: una herramienta que puede analizar la estruct
 * [<i style="color:#ff830.0">README.md</i>](#sreadme)</i> 
 * [<i style="color:#ff830.0">webpack.config.js</i>](#sreadme)</i> 
 
+# Resultado final   
+> ## **El resultado esperado cumple con:** 
+> 1. Registrarse 
+>       - Este punto se realiza mediante un proveedor de autenticación; en este caso Google usando el servicio de firebase
+> 2. Agregar tareas (se usa un input validado)
+> 3. Listado de tareas según se agreguen
+> 4. Permite cambiar el estado de la tarea
+> 5. Eliminar las tareas
+> 6. Un contador superior que lleva el total de las tareas tanto por hacer como realizadas 
+>
+>
+> ## Landing
+> ![Imagen](./Z-README/8.png)
+>
+> ## Panel principal registrado
+> ![Imagen](./Z-README/9.png)
+>
+> ## Ejemplo con una lista de tareas 
+> ![Imagen](./Z-README/10.png)
