@@ -1,4 +1,26 @@
 # **React con Webpack**
+
+---
+---
+## **Reto REACT/REDUX propuesto (Agosto 22, 2018) @Rigo**
+
+
+**La prueba consiste en construir un Todo List con los siguientes requerimientos:**
+ - Listar todos los items 
+ - Añadir un item 
+ - Borrar un item 
+ - Una página de Login que proteja la vista anterior, esto significa que solo puede interactuar si ha ingresado. Para ingresar el usuario debe escribir su email y contraseña (ambos campos validados), no necesita tener un backend, únicamente con la persistencia de Redux.
+
+|Qué se valora en la prueba|Qué NO hacer en la prueba|
+|--|--|
+| 1. Usar CSS in JS, por ejemplo como styled-components, JSS, etc...  2. Un UI/UX agradable 3. Usar eslint, standard y/o prettier 4. Escribir pruebas unitarias y/o de comportamiento|1. NO usar ningún boilerplate ni starter tales como create-react-app, react starter kit, react boilerplate, etc... 2. NO clonar alguna prueba de otro participante
+|
+
+**Crear un repositorio en GitHub y enviar URL a: @rigo**
+
+---
+---
+
 ## **Configuración inicial versión en contrucción**
 > 1. Crear carpeta projecto
 > 2.  Inicializar la aplicacion con `npm init`
@@ -109,4 +131,65 @@ Webpack es un paquete de módulos: una herramienta que puede analizar la estruct
   "warn" or 1 - turn the rule on as a warning (doesn’t affect exit code)
   "error" or 2 - turn the rule on as an error (exit code will be 1)
 */
+
+# Clonar repositorio git
+> ## 1. **Copiar Url**
+>     - https://github.com/abaleixer/todo_test.git
+> ![Imagen](./Z-README/1.png)
+>
+> ## 2. **Abrir la paleta de comandos en <i style='color:blue'>visual estudio code</i> Ingresamos `Git: Clonar`**
+> ![Imagen](./Z-README/2.png)
+>
+> ## 3. **Insertar la `url` en el campo**
+> ![Imagen](./Z-README/3.png)
+>
+> ## 4. **Esperamos que termine el proceso de descarga, después de selecciona la carpeta donde queremos clonar el proyecto** 
+> ![Imagen](./Z-README/4.png)
+>
+> ## 5. **Oprimir en <i style='background: #5252fc;color: white;border: 1px solid rgba(27,31,35,0.2);    border-radius: 0.25em; font-size: 13px;'>Abrir repositorio</i>**
+> ![Imagen](./Z-README/5.png)
+>
+> ## 6. **Abrir la terminal en `code`**
+> ![Imagen](./Z-README/6.png)
+>
+> ## 7. **En la consola ejecutamos el comando `npm install`**
+>    - Para instalar las dependencias del proyecto
+> ![Imagen](./Z-README/7.png)
+>
+> ## 8. **Finalmente verificamos que este agregada en la raíz del proyecto la carpeta `node_modules`** 
+> ## 9. **Ejecutamos el comando `npm start` para iniciar el proyecto**
+
+---
+---
+# **Estructura de la aplicación** 
+
+* [dist](#dist)  
+* [node_modules](#nodemodules)
+* [src](#src) 
+  * [assents](#assents)
+  * [auth](#auth)
+    *  [<i style="color:#ffe502">addTodo.js</i>](#addtodo)
+    *  [<i style="color:#ffe502">dashboard.js</i>](#dashboard)
+    *  [<i style="color:#ffe502">todos.js</i>](#todos)
+  * [service](#service)
+      *  [<i style="color:#ffe502">firebase-config.js</i>](#firebasec)
+  * [shared](#shared)
+     *  [<i style="color:#ffe502">actions.js</i>](#actions)
+     *  [<i style="color:#ffe502">atore.js</i>](#atore)
+     *  [<i style="color:#ffe502">styles.js</i>](#styles)
+     *  [<i style="color:#ffe502">task.js</i>](#task)
+  * [<i style="color:#ff8300">favicon.ico</i>](#favicon)
+  * [<i style="color:#ff8300">index.html</i>](#index)
+  * [<i style="color:#ff8300">index.js</i>](#indexjs)
+  * [<i style="color:#ff8300">theme.css</i>](#theme)
+* [Z-README](#zreadme)
+* [<i style="color:#ff8300">.babelrc</i>](#editorconfig)</i> 
+* [<i style="color:#ff8300">.eslintignore</i>](#gitignore)</i> 
+* [<i style="color:#ff8300">.eslintrc</i>](#tslint)</i> 
+* [<i style="color:#ff8300">.gitignore</i>](#gitignore)</i> 
+* [<i style="color:#ff8300">LICENSE</i>](#LICENSE)</i> 
+* [<i style="color:#ff8300"> package-lock.json</i>](#packagelock)</i> 
+* [<i style="color:#ff8300">package.json</i>](#package)</i> 
+* [<i style="color:#ff830.0">README.md</i>](#sreadme)</i> 
+* [<i style="color:#ff830.0">webpack.config.js</i>](#sreadme)</i> 
 
