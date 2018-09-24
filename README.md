@@ -92,10 +92,21 @@ Pero a pesar de ser inmensamente útiles, estos avances han llevado a la necesid
 Webpack es un paquete de módulos: una herramienta que puede analizar la estructura de su proyecto, encontrar módulos de JavaScript y otros activos para agruparlos y empaquetarlos para el navegador.*
 ---
 ---
+## **Instalación de librerías complementarias**
+> 1. Con el comando siguiente instalamos la librería de rutas `npm install --save react-router-dom`
+> 2. Instalar TSLint `npm install eslint --save-dev`
+>          `npm install eslint-plugin-react --save-dev`
+>        `npm i --sabe  babel-eslint` `npm i -D babel-eslint`
+> > 1. Creamos el archivo que le informa que carpetas debe ignorar con las reglas a aplicar `.eslintignore`
+> > 2. Creamos el archivo que contiene las reglas del eslint con el nombre `eslintrc`
+> 3. Instalar Redux desde *https://redux.js.org/basics/usagewithreact*  `npm install --save react-redux`
+> 4.        y Redux                                                   `npm install --save redux`
+> 5. Instalar Firebase como servicio de API `npm install --sabe firebase`
+/*
+  Reglas definidas en el link: http:/./eslint.org/docs/rules/
 
-Instalar Rutas `npm install --save react-router-dom`
-Instalar TSLint `npm install eslint --save-dev`
-          `npm install eslint-plugin-react --save-dev`
-Instalar Redux desde *https://redux.js.org/basics/usagewithreact*  `npm install --save react-redux`
-         y Redux                                                   `npm install --save redux`
-Instalar Firebase como servicio de API `npm install --sabe firebase`
+  "off" or 0 - turn the rule off
+  "warn" or 1 - turn the rule on as a warning (doesn’t affect exit code)
+  "error" or 2 - turn the rule on as an error (exit code will be 1)
+*/
+

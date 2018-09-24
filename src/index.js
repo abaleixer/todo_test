@@ -1,6 +1,7 @@
-import React, {Component} from 'react';
+
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
-import Dashboard from './auth/dashboard'
+import Dashboard from './auth/dashboard';
 
 class App extends Component {
    render() {
@@ -10,4 +11,4 @@ class App extends Component {
    }
 }
 
-ReactDom.render( <App/>,document.getElementById('AAB'));
+ReactDom.render( <App/>, document.getElementById('AAB'));
