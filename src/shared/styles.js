@@ -1,3 +1,4 @@
+
 const colorOne = '#23c3a6';
 const colorTwo = '#404040';
 const colorThree = '#ffffff';
@@ -19,7 +20,7 @@ const Style = {
     },
     cardM:{
         margin: '30px auto',
-        width: '400px'
+        width: '400px',
     },
     titleM: {
         fontFamily: 'Roboto,sans-serif',
@@ -28,7 +29,7 @@ const Style = {
         lineHeight: '2rem',
         textDecoration: 'inherit',
         textTransform: 'inherit',
-        color: colorTwo
+        color: colorTwo,
     },
     input: {
         fontFamily: 'Roboto,sans-serif',
@@ -56,7 +57,7 @@ const Style = {
         background: 'none',
         WebkitAppearance: 'none',
         MozAppearance: 'none',
-        appearance: 'none'
+        appearance: 'none',
     },
     label: {
         fontFamily: 'Roboto,sans-serif',
@@ -65,7 +66,7 @@ const Style = {
         lineHeight: '2rem',
         textDecoration: 'inherit',
         textTransform: 'inherit',
-        color: colorOne
+        color: colorOne,
     },
     navRight: {
 
@@ -114,7 +115,7 @@ const Style = {
         float: 'right',
         margin: '10px 5px',
         background: colorOne,
-        color: colorThree
+        color: colorThree,
     },
     buttonIcon: {
         fontFamily: 'Roboto,sans-serif',
@@ -160,7 +161,7 @@ const Style = {
         float: 'right',
         margin: '10px 5px',
         borderRadius: '50%',
-        color: colorThree
+        color: colorThree,
     },
     nav: {
         height: '64px',
@@ -176,7 +177,7 @@ const Style = {
         justifyContent: 'space-between',
         WebkitBoxSizing: 'border-box',
         boxSizing: 'border-box',
-        zIndex: '4'
+        zIndex: '4',
     },
     navSpan: {
         fontFamily: 'Roboto,sans-serif',
@@ -204,19 +205,19 @@ const Style = {
         MsFlexAlign: 'center',
         alignItems: 'center',
         padding: '8px 12px',
-        zIndex: '1'
+        zIndex: '1',
     },
     navStart: {
         MsFlexPack: 'start',
         justifyContent: 'flex-start',
         MsFlexOrder: '1',
-        order: '1'
+        order: '1',
     },
     navEnd: {
         MsFlexPack: 'end',
         justifyContent: 'flex-end',
         MsFlexOrder: '1',
-        order: '1'
+        order: '1',
     },
     avatar: {
         backgroundSize: 'cover',
@@ -224,7 +225,7 @@ const Style = {
         width: '40px',
         borderRadius: '50%',
         flexShrink: 0,
-        margin: 'auto'
-    }
-}
+        margin: 'auto',
+    },
+};
 export default Style;
