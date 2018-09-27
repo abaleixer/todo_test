@@ -1,4 +1,3 @@
-
 import { createStore, applyMiddleware } from 'redux';
 
 const reducer = (state, action) => {

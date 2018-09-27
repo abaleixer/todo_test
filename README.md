@@ -4,11 +4,11 @@
 ---
 ## **Reto REACT/REDUX propuesto (Agosto 22, 2018) @Rigo**
 
-
 **La prueba consiste en construir un Todo List con los siguientes requerimientos:**
- - Listar todos los items 
- - Añadir un item 
- - Borrar un item 
+
+ - Listar todos los items
+ - Añadir un item
+ - Borrar un item
  - Una página de Login que proteja la vista anterior, esto significa que solo puede interactuar si ha ingresado. Para ingresar el usuario debe escribir su email y contraseña (ambos campos validados), no necesita tener un backend, únicamente con la persistencia de Redux.
 
 |Qué se valora en la prueba|Qué NO hacer en la prueba|
@@ -89,8 +89,11 @@ module.exports = {
   }
 }
 ```
+
 > 9. Crear el archivo de configuración de babel en la carpeta raiz `.babelrc` con esta información
+
 ```
+
 {
     "presets": [
         "env",
