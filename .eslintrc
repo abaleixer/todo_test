@@ -24,7 +24,7 @@
       "arrow-spacing": [2, { "before": true, "after": true }],
       "comma-spacing": [2, {"before": false, "after": true}],
       "comma-dangle": [2, "always-multiline"],
-      "no-console": 1,
+      "no-console": 0,
       "no-mixed-spaces-and-tabs": 1,
       "no-unused-vars": [1, { "args": "none" }],
       "semi": [2, "always"],
@@ -43,9 +43,9 @@
       "react/no-did-update-set-state": 1,
       "react/no-direct-mutation-state": 1,
       "react/no-unknown-property": 1,
-      "react/require-extension": 1,
-      "react/self-closing-comp": 1,
-      "react/wrap-multilines": 1,
+      "react/require-extension": 0,
+      "react/self-closing-comp": 0,
+      "react/wrap-multilines": 0,
       "react/sort-comp": 2
     },
     "plugins": [
